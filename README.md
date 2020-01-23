@@ -1,7 +1,7 @@
 # Spring-Boot-OAuth2-with-JWT
 Spring boot oauth2 authorization server and resource server using jwt access token
 
-## Authorization Server
+## Authorization Server (port 8081)
 1) go to `SpringBootOAuth2JwtAuthorizationServer\src\main\resources` and fire up docker compose file as below:
 ```
 ... SpringBootOAuth2JwtAuthorizationServer\src\main\resources> docker-compose up
@@ -55,5 +55,5 @@ or you can just install MySQL database on your operating system manually. Note t
 }
 ```
 
-## Resource Server
+## Resource Server (port 8080)
 1) check authenticity by using ```http://localhost:8080/``` link.
