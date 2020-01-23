@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  
+logging:  file: resource.log
+  
+remote:
+  token:
+    url: http://localhost:8081/oauth/check_token
+    client-id: clientId #depends on what client had been registerd with localhost:8081/register-client on authorization server
+    client-secret: secret #depends on what client had been registerd with localhost:8081/register-client on authorization server    

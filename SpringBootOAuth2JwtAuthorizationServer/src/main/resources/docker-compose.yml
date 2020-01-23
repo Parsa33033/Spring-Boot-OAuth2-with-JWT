@@ -1,0 +1,19 @@
+version: '3'
+services:
+  db:
+    image: "mysql:5"
+    container_name: "db"
+    ports:
+      - "3306:3306"
+    expose:
+      - "3306"
+    volumes: 
+      - mydb:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: "auth_server"
+      MYSQL_USERNAME: "admin"
+      MYSQL_PASSWORD: "admin"
+      MYSQL_ROOT_PASSWORD: "pass"
+      
+volumes:
+  mydb:

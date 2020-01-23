@@ -1,0 +1,16 @@
+server:
+  port: 8081
+  
+logging:  file: auth_server.log
+  
+spring:  datasource:    url: jdbc:mysql://localhost:3306/auth_server
+    username: root
+    password: pass
+  jpa:    hibernate:      ddl-auto: update
+      
+      
+jwt:
+  key-store: classpath:jwt.jks
+  key-store-password: storepass
+  key-pair-alias: jwt
+  key-pair-password: keypass

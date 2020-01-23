@@ -1,0 +1,36 @@
+2020-01-23 05:59:11.777  INFO 8032 --- [main] gBootOAuth2JwtResourceServer3Application : Starting SpringBootOAuth2JwtResourceServer3Application on DESKTOP-Q9J85N7 with PID 8032 (C:\Users\PARSA\eclipse-workspace\SpringBootOAuth2JwtResourceServer-3\target\classes started by PARSA in C:\Users\PARSA\eclipse-workspace\SpringBootOAuth2JwtResourceServer-3)
+2020-01-23 05:59:11.781  INFO 8032 --- [main] gBootOAuth2JwtResourceServer3Application : No active profile set, falling back to default profiles: default
+2020-01-23 05:59:13.806  INFO 8032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-23 05:59:13.822  INFO 8032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-23 05:59:13.824  INFO 8032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-01-23 05:59:14.010  INFO 8032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-23 05:59:14.011  INFO 8032 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2167 ms
+2020-01-23 05:59:14.459  INFO 8032 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-23 05:59:14.701  INFO 8032 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 6637b225-f6a9-4d6d-a52d-f71d31bad740
+
+2020-01-23 05:59:15.045  INFO 8032 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e5ee2c9, org.springframework.security.web.context.SecurityContextPersistenceFilter@470a659f, org.springframework.security.web.header.HeaderWriterFilter@5ec46cdd, org.springframework.security.web.authentication.logout.LogoutFilter@756b58a7, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@5a82ebf8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a23350, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@263bbfeb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55a609dd, org.springframework.security.web.session.SessionManagementFilter@3b2f4a93, org.springframework.security.web.access.ExceptionTranslationFilter@6e1b9411, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6aba5d30]
+2020-01-23 05:59:15.130  INFO 8032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-23 05:59:15.136  INFO 8032 --- [main] gBootOAuth2JwtResourceServer3Application : Started SpringBootOAuth2JwtResourceServer3Application in 3.932 seconds (JVM running for 4.423)
+2020-01-23 05:59:31.720  INFO 8032 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-23 05:59:31.720  INFO 8032 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-23 05:59:31.728  INFO 8032 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-01-23 06:00:18.444  INFO 12432 --- [main] gBootOAuth2JwtResourceServer3Application : Starting SpringBootOAuth2JwtResourceServer3Application on DESKTOP-Q9J85N7 with PID 12432 (C:\Users\PARSA\eclipse-workspace\SpringBootOAuth2JwtResourceServer-3\target\classes started by PARSA in C:\Users\PARSA\eclipse-workspace\SpringBootOAuth2JwtResourceServer-3)
+2020-01-23 06:00:18.448  INFO 12432 --- [main] gBootOAuth2JwtResourceServer3Application : No active profile set, falling back to default profiles: default
+2020-01-23 06:00:20.650  INFO 12432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-23 06:00:20.662  INFO 12432 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-23 06:00:20.663  INFO 12432 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-01-23 06:00:20.797  INFO 12432 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-23 06:00:20.797  INFO 12432 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2281 ms
+2020-01-23 06:00:21.140  INFO 12432 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-23 06:00:21.386  INFO 12432 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 04ce71d2-bc13-4015-b1b2-3618ce83cb58
+
+2020-01-23 06:00:21.726  INFO 12432 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a48a7f3, org.springframework.security.web.context.SecurityContextPersistenceFilter@96a75da, org.springframework.security.web.header.HeaderWriterFilter@45e22def, org.springframework.security.web.authentication.logout.LogoutFilter@7ed9499e, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@351f2244, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a28b346, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37ed010a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f985a86, org.springframework.security.web.session.SessionManagementFilter@42d73c61, org.springframework.security.web.access.ExceptionTranslationFilter@2cc04358, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3fbcfe81]
+2020-01-23 06:00:21.818  INFO 12432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-23 06:00:21.822  INFO 12432 --- [main] gBootOAuth2JwtResourceServer3Application : Started SpringBootOAuth2JwtResourceServer3Application in 4.038 seconds (JVM running for 4.526)
+2020-01-23 06:00:41.917  INFO 12432 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-23 06:00:41.918  INFO 12432 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-23 06:00:41.927  INFO 12432 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
