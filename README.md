@@ -57,3 +57,4 @@ or you can just install MySQL database on your operating system manually. Note t
 
 ## Resource Server (port 8080)
 1) check authenticity by using ```http://localhost:8080/``` link.
+2) resource id set in ResourceServerConfig class must match the client's resourceIds field. (in our example it is first_resource)
