@@ -5,9 +5,7 @@ Spring boot oauth2 authorization server and resource server using jwt access tok
 ```
 ... SpringBootOAuth2JwtAuthorizationServer\src\main\resources> docker-compose up
 ```
-or you can just install MySQL database on your operating system
-
-note: you can change database name, username and password in docker-compose.yml file.
+or you can just install MySQL database on your operating system manually. Note that you can change database name, username and password in docker-compose.yml file.
 
 2) create a user by ```http://localhost:8081/register-user``` link by creating a post request with application/json content type.
 ```
