@@ -25,7 +25,7 @@ note: you can change database name, username and password in docker-compose.yml 
 }
 ```
 3) create a clinet application by ```http://localhost:8081/register-client``` link by creating a post request with application/json content type.
-'''
+```
 {
     "clientId": "clientId",
     "resourceIds": [
@@ -54,7 +54,7 @@ note: you can change database name, username and password in docker-compose.yml 
     "additionalInformation": null,
     "secretRequired": true
 }
-'''
+```
 
 ## Resource Server
 1) check authenticity by using ```http://localhost:8080/``` link.
