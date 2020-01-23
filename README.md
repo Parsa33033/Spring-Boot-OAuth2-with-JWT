@@ -1,7 +1,7 @@
 # Spring-Boot-OAuth2-with-JWT
 Spring boot oauth2 authorization server and resource server using jwt access token
 
-##Authorization Server
+## Authorization Server
 1) go to `SpringBootOAuth2JwtAuthorizationServer\src\main\resources` and fire up docker compose file as below:
 ```
 ... SpringBootOAuth2JwtAuthorizationServer\src\main\resources> docker-compose up
